@@ -9,7 +9,7 @@
 
 .container {
   display: flex;
-  max-width: 450px;
+  max-width: 390px;
   margin: 50px auto;
 }
 
@@ -29,7 +29,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(17, 16, 16, 0.71);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   padding: 15px;
   border-radius: 10px;
