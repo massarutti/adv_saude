@@ -14,7 +14,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 450px;
+  max-width: 390px;
   margin: 10px auto;
   justify-content: center;
 }
@@ -33,20 +33,18 @@
 .img_perfil {
   width: 180px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .img_logo {
   width: 180px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .apres_content {
   background-color: var(--primary-back-color);
-  border-radius: 10px;
   color: white;
   padding: 8px;
-  margin: 5px;
   text-transform: uppercase;
 }
 
@@ -87,7 +85,7 @@
 .apresentacao_1 a {
   text-decoration: none;
   background-color: var(--color-link-whats);
-  padding: 15px;
+  padding: 10px;
   color: white;
   font-size: 15px;
   border-radius: 10px;
@@ -121,7 +119,7 @@
 .apresentacao_2 a {
   text-decoration: none;
   background-color: var(--color-link-whats);
-  padding: 15px;
+  padding: 10px;
   color: white;
   font-size: 15px;
   border-radius: 10px;
@@ -136,8 +134,7 @@
   margin-top: 50px;
   background-color: var(--primary-back-color);
   color: white;
-  border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -160,9 +157,9 @@
 .conteudo_1 a {
   text-decoration: none;
   background-color: var(--color-link-whats);
-  padding: 15px;
+  padding: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 10px;
 }
 
@@ -180,7 +177,6 @@
   margin-top: 50px;
   background-color: var(--primary-back-color);
   color: white;
-  border-radius: 10px;
   padding: 10px;
   text-align: center;
 }
@@ -192,4 +188,67 @@
 .quem_mentor p {
   margin-top: 10px;
   line-height: 30px;
+}
+
+.quem_mentor a {
+  text-decoration: none;
+  background-color: var(--color-link-whats);
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.quem_mentor i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.link_whats_3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.tempo_mentoria {
+  margin-top: 35px;
+  background-color: var(--primary-back-color);
+  color: white;
+
+  padding: 5px;
+  text-align: center;
+}
+
+.tempo_mentoria h2 {
+  margin-top: 20px;
+}
+
+.tempo_mentoria p {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.tempo_mentoria span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tempo_mentoria a {
+  text-decoration: none;
+  background-color: var(--color-link-whats);
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.tempo_mentoria i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.link_whats_4 {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
