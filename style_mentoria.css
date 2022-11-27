@@ -159,6 +159,7 @@
 .conteudo_1 li {
   text-align: center;
   line-height: 30px;
+  list-style: none;
 }
 
 .conteudo_1 a {
