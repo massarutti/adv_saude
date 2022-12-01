@@ -6,299 +6,119 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  --primary-back-color: #2f4262;
-  --color-link-whats: rgba(29, 166, 45, 0.996);
-  --color-p-primary: #2f4262d0;
+  --text-primary-color: rgba(255, 255, 255, 0.897);
+  --icon-primary-color: rgba(255, 0, 0, 0.726);
+  --icon-whats-color: rgba(29, 166, 45, 0.996);
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   max-width: 390px;
-  margin: 10px auto;
-  justify-content: center;
+  background-color: #0e0e0e;
+  margin: 15px auto;
 }
 
-.apresentacao {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+/* --- Paragrafos | Span | Links ----- */
 
-.img_perfil {
-  width: 40%;
-}
-
-.apres_img_mentor h2 {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 350;
-  color: rgba(0, 0, 0, 0.575);
-}
-
-.apres_img_mentor span {
-  font-weight: bold;
-  border-right: solid 1px rgba(0, 0, 0, 0.575);
-  margin-right: 3px;
-}
-
-.apres_img {
-  background-color: var(--primary-back-color);
-  display: flex;
-  justify-content: center;
-}
-
-.apres_content {
-  display: flex;
-}
-
-.apres_content img {
-  width: 100%;
-}
-
-.apresentacao_1 {
-  display: flex;
-  background-color: var(--primary-back-color);
-  color: white;
-  text-align: center;
-}
-
-.apresentacao_1 p {
-  line-height: 30px;
-  color: white;
-  margin: 15px;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: justify;
-}
-
-.apresentacao_1 span {
-  font-weight: 700;
-  font-style: italic;
-}
-
-.link_whats_1 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.apresentacao_1 a {
-  text-decoration: none;
-  background-color: var(--color-link-whats);
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
-.apresentacao_1 i {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.img_medicamentos {
-  width: 100%;
-}
-
-.apresentacao_2 {
-  background-color: var(--primary-back-color);
-  color: white;
-  padding: 5px;
-  text-align: center;
-}
-
-.apresentacao_2 p {
-  line-height: 30px;
-  color: white;
-  margin: 15px;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: justify;
-}
-
-.apresentacao_2 span {
-  font-weight: 700;
-  font-style: italic;
-}
-
-.apresentacao_2 a {
-  text-decoration: none;
-  background-color: var(--color-link-whats);
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
-.apresentacao_2 i {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.img_oque_mentoria {
-  width: 100%;
-}
-
-.conteudo_1 {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--primary-back-color);
-  color: white;
-  text-align: center;
-}
-
-.conteudo_1 p {
-  text-align: justify;
-  text-transform: uppercase;
-  line-height: 30px;
-  padding: 10px;
-}
-
-.conteudo_1 span {
-  font-weight: 700;
-  font-style: italic;
-}
-
-.conteudo_1 li {
-  text-align: center;
-  line-height: 30px;
-  list-style: none;
-}
-
-.conteudo_1 a {
-  text-decoration: none;
-  background-color: var(--color-link-whats);
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
-.conteudo_1 i {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.img_metodo {
-  width: 100%;
-}
-
-.link_whats_2 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.quem_mentor {
-  background-color: var(--primary-back-color);
-  color: white;
-  text-align: center;
-}
-
-.quem_mentor img {
-  width: 100%;
-}
-
-.quem_mentor h2 {
-  margin-top: 20px;
-}
-
-.quem_mentor p {
+p {
+  color: var(--text-primary-color);
   margin-top: 10px;
   line-height: 30px;
-  padding: 10px;
-}
-
-.quem_mentor a {
-  text-decoration: none;
-  background-color: var(--color-link-whats);
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
-.quem_mentor i {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.link_whats_3 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.tempo_mentoria {
-  background-color: var(--primary-back-color);
-  color: white;
   text-align: center;
-}
-
-.img_tempo {
-  width: 100%;
-}
-
-.img_conteudo {
-  width: 100%;
-}
-
-.tempo_mentoria p {
-  text-align: justify;
-  margin-top: 10px;
-  line-height: 30px;
   padding: 10px;
 }
 
-.tempo_mentoria span {
+span {
+  color: var(--icon-primary-color);
+  font-weight: 300;
   text-transform: uppercase;
-  text-decoration: underline;
-  font-size: 20px;
+}
+
+.link_whats {
+  background-color: var(--icon-whats-color);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-size: 12px;
+  padding: 10px;
+  margin-left: 35px;
+}
+
+#icon_whats {
+  color: var(--text-primary-color);
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+/* ------- Cabeçalho ------- */
+
+.navbar {
+  width: 100%;
+  border-bottom: solid 2px var(--icon-primary-color);
+}
+
+.navbar_content {
+  display: flex;
+}
+
+.navbar_content img {
+  width: 50%;
+}
+
+.navbar_content div {
+  margin-top: 150px;
+}
+
+.navbar_content h1 {
+  color: var(--text-primary-color);
+  text-align: center;
+  font-size: 12px;
   font-weight: 600;
 }
 
-.tempo_mentoria a {
-  text-decoration: none;
-  background-color: var(--color-link-whats);
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
-.tempo_mentoria i {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.link_whats_4 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.rodape {
-  margin-top: 10px;
-}
-
-.rodape_links {
-  display: flex;
-  justify-content: center;
-}
-.rodape_links a {
-  text-decoration: none;
-  color: black;
-  padding: 10px;
-}
-
-.rodape_links i {
-  font-size: 35px;
-}
-
-.rodape_content h6 {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 0.8rem;
+.navbar_content h2 {
+  color: var(--text-primary-color);
   text-align: center;
-  color: rgba(0, 0, 0, 0.582);
+  font-size: 10px;
+  font-weight: 350;
+  margin-top: 10px;
+}
+
+.navbar_content i {
+  color: var(--icon-primary-color);
+  font-size: 20px;
+}
+
+/* ------- MENTORIA --------- */
+
+.mentoria h2 {
+  color: var(--text-primary-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.mentoria i {
+  color: var(--icon-primary-color);
+  font-size: 20px;
+}
+
+/* ------ Metodo --------- */
+
+.metodo {
+  margin-top: 50px;
+  border-top: solid 2px var(--icon-primary-color);
+}
+
+.metodo h2 {
+  color: var(--text-primary-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.metodo i {
+  color: var(--icon-primary-color);
+  font-size: 20px;
 }
