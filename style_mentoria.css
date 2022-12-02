@@ -7,8 +7,10 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   --text-primary-color: rgba(255, 255, 255, 0.897);
-  --icon-primary-color: rgba(255, 0, 0, 0.726);
+  --icon-primary-color: rgb(255, 251, 0);
   --icon-whats-color: rgba(29, 166, 45, 0.996);
+
+  /* --icon-primary-color: rgba(255, 0, 0, 0.726); */
 }
 
 .container {
@@ -17,7 +19,7 @@
   margin: auto;
 }
 
-/* --- Paragrafos | Span | Links ----- */
+/* --- Paragrafos | Span | Links -----  */
 
 p {
   color: var(--text-primary-color);
@@ -49,7 +51,7 @@ span {
   font-size: 15px;
 }
 
-/* ------- Cabeçalho ------- */
+/* ------- CABEÇALHO ------- */
 
 .navbar {
   width: 100%;
@@ -85,7 +87,7 @@ span {
 
 .navbar_content i {
   color: var(--icon-primary-color);
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* ------- MENTORIA --------- */
@@ -100,10 +102,10 @@ span {
 
 .mentoria i {
   color: var(--icon-primary-color);
-  font-size: 20px;
+  font-size: 30px;
 }
 
-/* ------ Metodo --------- */
+/* ------ METODO --------- */
 
 .metodo {
   margin-top: 50px;
@@ -120,5 +122,77 @@ span {
 
 .metodo i {
   color: var(--icon-primary-color);
+  font-size: 30px;
+}
+
+/* ------- MENTOR -------- */
+
+.mentor {
+  margin-top: 50px;
+  border-top: solid 2px var(--icon-primary-color);
+}
+
+.mentor img {
+  width: 50%;
+}
+
+.mentor_content {
+  display: flex;
+}
+
+.mentor_content div {
+  margin-top: 150px;
+}
+
+.mentor_content h2 {
+  color: var(--text-primary-color);
+  text-align: center;
   font-size: 20px;
+  font-weight: 350;
+  padding: 5px;
+}
+
+.mentor_content i {
+  color: var(--icon-primary-color);
+  font-size: 30px;
+}
+
+/* ----------  CONTEUDO -------- */
+
+.conteudo {
+  margin-top: 50px;
+  border-top: solid 2px var(--icon-primary-color);
+}
+
+.conteudo_content h2 {
+  color: var(--text-primary-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.conteudo_content i {
+  color: var(--icon-primary-color);
+  font-size: 30px;
+}
+
+/* ------ BONUS ------ */
+
+.bonus {
+  margin-top: 50px;
+  border-top: solid 2px var(--icon-primary-color);
+}
+
+.bonus_content h2 {
+  color: var(--text-primary-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.bonus_content i {
+  color: var(--icon-primary-color);
+  font-size: 30px;
 }
