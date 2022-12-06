@@ -14,7 +14,7 @@
 }
 
 .container {
-  max-width: 390px;
+  max-width: 100%;
   background-color: #0e0e0e;
   margin: auto;
 }
@@ -35,14 +35,23 @@ span {
   text-transform: uppercase;
 }
 
+.content_link_whats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .link_whats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--icon-whats-color);
+  width: 90%;
   border-radius: 10px;
   text-decoration: none;
   color: var(--text-primary-color);
   font-size: 12px;
   padding: 10px;
-  margin-left: 35px;
 }
 
 #icon_whats {
@@ -67,13 +76,13 @@ span {
 }
 
 .navbar_content div {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .navbar_content h1 {
   color: var(--text-primary-color);
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -195,4 +204,35 @@ span {
 .bonus_content i {
   color: var(--icon-primary-color);
   font-size: 30px;
+}
+
+/* -------- RODAPE ---------- */
+
+.rodape {
+  border-top: solid 2px var(--icon-primary-color);
+  margin-top: 20px;
+}
+
+.rodape_content {
+  margin-top: 5px;
+}
+
+.rodape_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rodape_links i {
+  color: var(--text-primary-color);
+  font-size: 30px;
+  margin: 15px;
+}
+.rodape h4 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: var(--text-primary-color);
+  font-size: 10px;
 }
