@@ -13,8 +13,11 @@
   /* --icon-primary-color: rgba(255, 0, 0, 0.726); */
 }
 
+.body {
+  background-color: #0e0e0e;
+}
+
 .container {
-  max-width: 100%;
   background-color: #0e0e0e;
   margin: auto;
 }
@@ -262,4 +265,222 @@ span {
   padding: 10px;
   color: var(--text-primary-color);
   font-size: 10px;
+}
+
+@media (min-width: 700px) {
+  .navbar_content h1 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .navbar_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 350;
+    margin-top: 10px;
+  }
+
+  .navbar_content i {
+    color: var(--icon-primary-color);
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 900px) {
+  .navbar_content h1 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .navbar_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 350;
+    margin-top: 10px;
+  }
+
+  .navbar_content i {
+    color: var(--icon-primary-color);
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: #0e0e0e;
+  }
+
+  .container {
+    width: 1000px;
+    background-color: #0e0e0e;
+    margin: auto;
+  }
+
+  .navbar_content h1 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .navbar_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 350;
+    margin-top: 10px;
+  }
+
+  .navbar_content i {
+    color: var(--icon-primary-color);
+    font-size: 55px;
+  }
+  /* --------------- */
+  p {
+    color: var(--text-primary-color);
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .link_whats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--icon-whats-color);
+    width: 90%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-primary-color);
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  #icon_whats {
+    color: var(--text-primary-color);
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  /* ------- MENTORIA --------- */
+
+  .mentoria h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .mentoria i {
+    color: var(--icon-primary-color);
+    font-size: 50px;
+  }
+
+  /* ------ METODO --------- */
+
+  .metodo h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .metodo i {
+    color: var(--icon-primary-color);
+    font-size: 50px;
+  }
+
+  /* ------- MENTOR -------- */
+
+  .mentor img {
+    width: 60%;
+    border-bottom: solid 5px rgba(61, 59, 59, 0.39);
+  }
+
+  .mentor_content div {
+    margin-top: 150px;
+  }
+
+  .mentor_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+  }
+
+  .mentor_content i {
+    color: var(--icon-primary-color);
+    font-size: 50px;
+  }
+
+  /* ----------  CONTEUDO -------- */
+
+  .conteudo_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .conteudo_content i {
+    color: var(--icon-primary-color);
+    font-size: 50px;
+  }
+
+  /* ------ BONUS ------ */
+
+  .bonus_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .bonus_content i {
+    color: var(--icon-primary-color);
+    font-size: 50px;
+  }
+
+  /* ---------- TEMPO -----------*/
+
+  .tempo_content h2 {
+    color: var(--text-primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px;
+  }
+
+  .tempo_content i {
+    color: var(--icon-primary-color);
+    font-size: 50px;
+  }
+
+  /* -------- RODAPE ---------- */
+
+  .rodape_links i {
+    color: var(--text-primary-color);
+    font-size: 50px;
+    margin: 15px;
+  }
+  .rodape h4 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: var(--text-primary-color);
+    font-size: 15px;
+  }
 }
